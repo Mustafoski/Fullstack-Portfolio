@@ -1,0 +1,22 @@
+.techstack-section {
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.techstack-section.collapsed {
+  height: 50px;
+}
+
+.techstack-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
