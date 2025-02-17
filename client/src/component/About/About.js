@@ -9,27 +9,29 @@ const About = ({ isSidebarExpanded }) => {
         isSidebarExpanded ? '' : 'collapsed'
       }`}
     >
-      <div className='about-image'>
-        <img src={ProfilePic} alt='Profile Photo' />
-      </div>
-
-      <div className='about-details'>
-        <div className='about-title'>
-          <h5>About Me</h5>
-          <span className='line'></span>
+      <div className='row'>
+        <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
+          <div className='about-image'>
+            <img src={ProfilePic} alt='Emir' />
+          </div>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eveniet
-          nesciunt veniam? Saepe ducimus laudantium possimus, ratione eaque eius
-          voluptatem error sint suscipit tenetur maiores molestiae, veniam
-          maxime numquam nesciunt. Culpa blanditiis veniam adipisci neque minus!
-          Corrupti ut, maxime debitis sunt id accusantium consectetur veritatis
-          eligendi quod consequuntur ipsa atque libero itaque tempore suscipit
-          dolore, impedit cum! Numquam, corrupti animi. Dolore possimus magnam
-          esse totam repellat voluptatum nobis consequatur, inventore, fugit
-          porro similique veritatis eaque quisquam pariatur facere beatae, sit
-          sunt sequi eum odio officiis iure facilis nam. Quis, sit!
-        </p>
+        <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
+          <div className='about-details'>
+            <div className='about-title'>
+              <h5>About me</h5>
+              <span className='line'></span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              necessitatibus molestiae obcaecati ratione animi accusamus minima
+              voluptatibus illo labore! Dolore cum obcaecati magni eius sapiente
+              amet! Necessitatibus commodi ab unde. Odit quam rem voluptatum,
+              esse, voluptates nulla eius ab beatae quis cum alias facere! Neque
+              impedit ullam officiis error distinctio sed! Tenetur distinctio
+              eligendi iste necessitatibus optio iusto est voluptatem.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
