@@ -6,7 +6,7 @@ const Project = () => {
   const data = [
     {
       name: 'MERN Stack Job Portal',
-      des: 'A job portal application built using MERN stack.',
+      des: 'A job portal application built using MERN stack.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, accusamus neque repellat qui reprehenderit asperiores, fuga ducimus aut sint odit est veritatis labore nostrum vero voluptatem cum, hic porro ut.     Dolorum eligendi, minima unde dolores ex iure necessitatibus doloremque totam repudiandae eaque? Porro obcaecati optio ipsam magni veritatis quae necessitatibus mollitia similique? Aliquam corporis provident aut id similique obcaecati? Autem.',
       projectLink: 'www.google.com',
       techUsed: [
         {
@@ -25,7 +25,7 @@ const Project = () => {
     },
     {
       name: 'MERN Stack Event Management Portal',
-      des: 'A job portal application built using MERN stack.',
+      des: 'A job portal application built using MERN stack.Dolorum eligendi, minima unde dolores ex iure necessitatibus doloremque totam repudiandae eaque? Porro obcaecati optio ipsam magni veritatis quae necessitatibus mollitia similique? Aliquam corporis provident aut id similique obcaecati?',
       projectLink: 'www.google.com',
       techUsed: [
         {
@@ -44,7 +44,7 @@ const Project = () => {
     },
     {
       name: 'MERN Stack Social Media Portal',
-      des: 'A job portal application built using MERN stack.',
+      des: 'Dolorum eligendi, minima unde dolores ex iure necessitatibus doloremque totam repudiandae eaque? Porro obcaecati optio ipsam magni veritatis quae necessitatibus mollitia similique? Aliquam corporis provident aut id similique obcaecati? A job portal application built using MERN stack.',
       projectLink: 'www.google.com',
       techUsed: [
         {
@@ -63,17 +63,14 @@ const Project = () => {
     },
     {
       name: 'MERN Online Learning Portal',
-      des: 'A job portal application built using MERN stack.',
+      des: 'A job portal application built using MERN stack.Dolorum eligendi, minima unde dolores ex iure necessitatibus doloremque totam repudiandae eaque? Porro obcaecati optio ipsam magni veritatis quae necessitatibus mollitia similique? Aliquam corporis provident aut id similique obcaecati?',
       projectLink: 'www.google.com',
       techUsed: [
-        {
-          techName: 'Node',
-        },
         {
           techName: 'React',
         },
         {
-          techName: 'Express js',
+          techName: 'Prisma',
         },
         {
           techName: 'Next js',

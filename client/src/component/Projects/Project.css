@@ -3,16 +3,78 @@
   -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
   -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
   margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 8px;
 }
+
 .project-list:hover {
   border-left: 5px solid blueviolet;
   cursor: pointer;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
+
 .title-and-collapse-option {
   display: flex;
   justify-content: space-between;
-  margin: 5px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.container {
+  margin-left: 280px;
+  width: calc(100% - 280px);
+}
+
+.tech-used-in-project {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Provides nice spacing between elements */
+}
+
+.tech-used-in-project p {
+  background-color: black;
+  color: white;
+  border-radius: 20px; /* More pill-like shape */
+  padding: 10px 15px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  min-width: 80px; /* Ensures consistent size */
+  text-transform: uppercase;
+}
+
+.tech-used-in-project p:hover {
+  background-color: burlywood;
+  transition: 0.3s;
+}
+
+.live-demo-button {
+  background-color: greenyellow;
+  border-radius: 30px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  width: fit-content;
+  text-align: center;
+  display: inline-block;
+}
+
+.live-demo-button a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.live-demo-button:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+/* Adjust button alignment */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
