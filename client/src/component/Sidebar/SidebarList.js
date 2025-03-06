@@ -10,6 +10,7 @@ import {
   FcSalesPerformance,
 } from 'react-icons/fc';
 import { MdBiotech, MdCastForEducation } from 'react-icons/md';
+import { Link } from 'react-scroll';
 
 const SidebarList = ({ expandSidebar }) => {
   return (
