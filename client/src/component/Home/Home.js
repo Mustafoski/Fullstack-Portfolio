@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Typewriter from 'typewriter-effect';
-import MyCv from './Emir CV.pdf';
+import MyCv from './Emir 2026.pdf';
 
 const Home = () => {
   return (
